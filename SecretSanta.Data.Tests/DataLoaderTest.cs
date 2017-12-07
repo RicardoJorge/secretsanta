@@ -8,6 +8,10 @@ namespace SecretSanta.Data.Tests
     [TestClass]
     public class DataLoaderTest
     {
-        
+        [TestMethod]
+        public void Test1()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
