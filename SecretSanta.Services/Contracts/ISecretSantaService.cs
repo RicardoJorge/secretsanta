@@ -1,7 +1,9 @@
-﻿namespace SecretSanta.Services.Contracts
+﻿using System.Threading.Tasks;
+
+namespace SecretSanta.Services.Contracts
 {
     public interface ISecretSantaService
     {
-        void LoadSantaGroupAndSendTexts();
+        Task LoadSantaGroupAndSendTexts();
     }
 }
