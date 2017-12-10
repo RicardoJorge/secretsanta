@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SecretSanta.Model
+﻿namespace SecretSanta.Model
 {
     public class Friend
     {
